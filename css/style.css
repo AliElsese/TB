@@ -18,43 +18,22 @@ a {
 header {
   background-color: #1a5d8f;
 }
-.logo {
-  height: 104px;
-  color: #1a5d8f;
-}
 
-.logo::after {
-  content: "";
-  position: absolute;
-  right: -7px;
-  bottom: -77px;
-  border: solid 77px;
-  border-color: transparent transparent transparent white;
-  transform: rotate(45deg);
-  z-index: 1;
-}
-
-.logo::before {
-  content: "";
-  position: absolute;
-  left: -7px;
-  top: -81px;
-  border: solid 77px;
-  border-color: transparent transparent transparent white;
-  transform: rotate(225deg);
-  z-index: 1;
-}
-
-nav .main-nav li a {
+.navbar-nav .nav-item {
   font-size: 14px;
-  font-weight: 600;
+  font-weight: 400;
   border: 2px solid transparent;
   transition: 0.5s;
 }
 
-.active,
-nav .main-nav li a:hover {
+.navbar-nav .nav-item.active,
+.navbar-nav .nav-item:hover {
   border-color: #fff !important;
+}
+
+header .navbar .navbar-toggler-icon {
+  border-color: #fff;
+  color: #000;
 }
 
 /* End Nav  */

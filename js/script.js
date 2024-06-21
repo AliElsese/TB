@@ -1,7 +1,4 @@
-/* JavaScript to animate the 
-   counters sequentially*/
-     
-   function animateCounters() { 
+function animateCounters() { 
     const counters = 
         document 
             .querySelectorAll(".counter"); 
